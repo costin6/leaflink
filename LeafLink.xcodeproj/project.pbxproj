@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983097222ACCB4B70058FC99 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983097212ACCB4B70058FC99 /* HomePage.swift */; };
+		983097262ACCDDED0058FC99 /* MyPlantGuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983097252ACCDDED0058FC99 /* MyPlantGuidePage.swift */; };
+		98D8A64A2ACB41EE00F2CA92 /* LeafLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6492ACB41EE00F2CA92 /* LeafLinkApp.swift */; };
+		98D8A64C2ACB41EE00F2CA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A64B2ACB41EE00F2CA92 /* ContentView.swift */; };
+		98D8A64E2ACB41F100F2CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D8A64D2ACB41F100F2CA92 /* Assets.xcassets */; };
+		98D8A6512ACB41F100F2CA92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D8A6502ACB41F100F2CA92 /* Preview Assets.xcassets */; };
+		98D8A65B2ACB41F100F2CA92 /* LeafLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A65A2ACB41F100F2CA92 /* LeafLinkTests.swift */; };
+		98D8A6652ACB41F100F2CA92 /* LeafLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6642ACB41F100F2CA92 /* LeafLinkUITests.swift */; };
+		98D8A6672ACB41F100F2CA92 /* LeafLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6662ACB41F100F2CA92 /* LeafLinkUITestsLaunchTests.swift */; };
+		98D8A6742ACB4A0400F2CA92 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6732ACB4A0400F2CA92 /* BottomNavBar.swift */; };
+		98D8A6762ACB4DD800F2CA92 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6752ACB4DD800F2CA92 /* CameraViewController.swift */; };
+		98D8A6782ACB4E1900F2CA92 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6772ACB4E1900F2CA92 /* CameraView.swift */; };
+		98D8A67D2ACC279700F2CA92 /* GuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A67C2ACC279700F2CA92 /* GuidePage.swift */; };
+		98D8A6802ACC27FA00F2CA92 /* PlantDiseasesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A67F2ACC27FA00F2CA92 /* PlantDiseasesPage.swift */; };
+		98D8A6822ACC286400F2CA92 /* PlantFAQPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6812ACC286400F2CA92 /* PlantFAQPage.swift */; };
+		98D8A6842ACC28D600F2CA92 /* PlantGuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6832ACC28D600F2CA92 /* PlantGuidePage.swift */; };
+		98D8A6862ACC28F600F2CA92 /* PlantSpeciesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8A6852ACC28F600F2CA92 /* PlantSpeciesPage.swift */; };
+		9AD515072ACCA45C00D96C8C /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD515062ACCA45C00D96C8C /* EventsView.swift */; };
+		9AD515092ACCB2E200D96C8C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD515082ACCB2E200D96C8C /* ChatView.swift */; };
+		9AD5150B2ACCC6FB00D96C8C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5150A2ACCC6FB00D96C8C /* ChartView.swift */; };
+		9AF70EFD2ACC19D200958C1C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF70EFC2ACC19D200958C1C /* TestView.swift */; };
+		9AF70F012ACC1EC300958C1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF70F002ACC1EC300958C1C /* MapView.swift */; };
+		9AF70F052ACC3EC600958C1C /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF70F042ACC3EC600958C1C /* Pin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D8A6572ACB41F100F2CA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D8A63E2ACB41EE00F2CA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D8A6452ACB41EE00F2CA92;
+			remoteInfo = LeafLink;
+		};
+		98D8A6612ACB41F100F2CA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D8A63E2ACB41EE00F2CA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D8A6452ACB41EE00F2CA92;
+			remoteInfo = LeafLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983097212ACCB4B70058FC99 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		983097252ACCDDED0058FC99 /* MyPlantGuidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantGuidePage.swift; sourceTree = "<group>"; };
+		98D8A6462ACB41EE00F2CA92 /* LeafLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8A6492ACB41EE00F2CA92 /* LeafLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafLinkApp.swift; sourceTree = "<group>"; };
+		98D8A64B2ACB41EE00F2CA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98D8A64D2ACB41F100F2CA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98D8A6502ACB41F100F2CA92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98D8A6562ACB41F100F2CA92 /* LeafLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8A65A2ACB41F100F2CA92 /* LeafLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafLinkTests.swift; sourceTree = "<group>"; };
+		98D8A6602ACB41F100F2CA92 /* LeafLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D8A6642ACB41F100F2CA92 /* LeafLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafLinkUITests.swift; sourceTree = "<group>"; };
+		98D8A6662ACB41F100F2CA92 /* LeafLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98D8A6732ACB4A0400F2CA92 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		98D8A6752ACB4DD800F2CA92 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		98D8A6772ACB4E1900F2CA92 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		98D8A67C2ACC279700F2CA92 /* GuidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePage.swift; sourceTree = "<group>"; };
+		98D8A67F2ACC27FA00F2CA92 /* PlantDiseasesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseasesPage.swift; sourceTree = "<group>"; };
+		98D8A6812ACC286400F2CA92 /* PlantFAQPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantFAQPage.swift; sourceTree = "<group>"; };
+		98D8A6832ACC28D600F2CA92 /* PlantGuidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGuidePage.swift; sourceTree = "<group>"; };
+		98D8A6852ACC28F600F2CA92 /* PlantSpeciesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantSpeciesPage.swift; sourceTree = "<group>"; };
+		9AD515062ACCA45C00D96C8C /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		9AD515082ACCB2E200D96C8C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9AD5150A2ACCC6FB00D96C8C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		9AF70EFC2ACC19D200958C1C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		9AF70F002ACC1EC300958C1C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9AF70F042ACC3EC600958C1C /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D8A6432ACB41EE00F2CA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8A6532ACB41F100F2CA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8A65D2ACB41F100F2CA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D8A63D2ACB41EE00F2CA92 = {
+			isa = PBXGroup;
+			children = (
+				9AD5150A2ACCC6FB00D96C8C /* ChartView.swift */,
+				9AD515082ACCB2E200D96C8C /* ChatView.swift */,
+				9AD515062ACCA45C00D96C8C /* EventsView.swift */,
+				9AF70F042ACC3EC600958C1C /* Pin.swift */,
+				9AF70F002ACC1EC300958C1C /* MapView.swift */,
+				9AF70EFC2ACC19D200958C1C /* TestView.swift */,
+				98D8A6482ACB41EE00F2CA92 /* LeafLink */,
+				98D8A6592ACB41F100F2CA92 /* LeafLinkTests */,
+				98D8A6632ACB41F100F2CA92 /* LeafLinkUITests */,
+				98D8A6472ACB41EE00F2CA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D8A6472ACB41EE00F2CA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D8A6462ACB41EE00F2CA92 /* LeafLink.app */,
+				98D8A6562ACB41F100F2CA92 /* LeafLinkTests.xctest */,
+				98D8A6602ACB41F100F2CA92 /* LeafLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D8A6482ACB41EE00F2CA92 /* LeafLink */ = {
+			isa = PBXGroup;
+			children = (
+				98D8A6492ACB41EE00F2CA92 /* LeafLinkApp.swift */,
+				98D8A64B2ACB41EE00F2CA92 /* ContentView.swift */,
+				98D8A64D2ACB41F100F2CA92 /* Assets.xcassets */,
+				98D8A64F2ACB41F100F2CA92 /* Preview Content */,
+				98D8A6732ACB4A0400F2CA92 /* BottomNavBar.swift */,
+				983097212ACCB4B70058FC99 /* HomePage.swift */,
+				98D8A6752ACB4DD800F2CA92 /* CameraViewController.swift */,
+				98D8A6772ACB4E1900F2CA92 /* CameraView.swift */,
+				98D8A67C2ACC279700F2CA92 /* GuidePage.swift */,
+				98D8A67E2ACC27E000F2CA92 /* Guide Page Content */,
+				983097252ACCDDED0058FC99 /* MyPlantGuidePage.swift */,
+			);
+			path = LeafLink;
+			sourceTree = "<group>";
+		};
+		98D8A64F2ACB41F100F2CA92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98D8A6502ACB41F100F2CA92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98D8A6592ACB41F100F2CA92 /* LeafLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D8A65A2ACB41F100F2CA92 /* LeafLinkTests.swift */,
+			);
+			path = LeafLinkTests;
+			sourceTree = "<group>";
+		};
+		98D8A6632ACB41F100F2CA92 /* LeafLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98D8A6642ACB41F100F2CA92 /* LeafLinkUITests.swift */,
+				98D8A6662ACB41F100F2CA92 /* LeafLinkUITestsLaunchTests.swift */,
+			);
+			path = LeafLinkUITests;
+			sourceTree = "<group>";
+		};
+		98D8A67E2ACC27E000F2CA92 /* Guide Page Content */ = {
+			isa = PBXGroup;
+			children = (
+				98D8A67F2ACC27FA00F2CA92 /* PlantDiseasesPage.swift */,
+				98D8A6812ACC286400F2CA92 /* PlantFAQPage.swift */,
+				98D8A6832ACC28D600F2CA92 /* PlantGuidePage.swift */,
+				98D8A6852ACC28F600F2CA92 /* PlantSpeciesPage.swift */,
+			);
+			path = "Guide Page Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D8A6452ACB41EE00F2CA92 /* LeafLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8A66A2ACB41F100F2CA92 /* Build configuration list for PBXNativeTarget "LeafLink" */;
+			buildPhases = (
+				98D8A6422ACB41EE00F2CA92 /* Sources */,
+				98D8A6432ACB41EE00F2CA92 /* Frameworks */,
+				98D8A6442ACB41EE00F2CA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeafLink;
+			productName = LeafLink;
+			productReference = 98D8A6462ACB41EE00F2CA92 /* LeafLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D8A6552ACB41F100F2CA92 /* LeafLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8A66D2ACB41F100F2CA92 /* Build configuration list for PBXNativeTarget "LeafLinkTests" */;
+			buildPhases = (
+				98D8A6522ACB41F100F2CA92 /* Sources */,
+				98D8A6532ACB41F100F2CA92 /* Frameworks */,
+				98D8A6542ACB41F100F2CA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D8A6582ACB41F100F2CA92 /* PBXTargetDependency */,
+			);
+			name = LeafLinkTests;
+			productName = LeafLinkTests;
+			productReference = 98D8A6562ACB41F100F2CA92 /* LeafLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D8A65F2ACB41F100F2CA92 /* LeafLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D8A6702ACB41F100F2CA92 /* Build configuration list for PBXNativeTarget "LeafLinkUITests" */;
+			buildPhases = (
+				98D8A65C2ACB41F100F2CA92 /* Sources */,
+				98D8A65D2ACB41F100F2CA92 /* Frameworks */,
+				98D8A65E2ACB41F100F2CA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D8A6622ACB41F100F2CA92 /* PBXTargetDependency */,
+			);
+			name = LeafLinkUITests;
+			productName = LeafLinkUITests;
+			productReference = 98D8A6602ACB41F100F2CA92 /* LeafLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D8A63E2ACB41EE00F2CA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					98D8A6452ACB41EE00F2CA92 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					98D8A6552ACB41F100F2CA92 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 98D8A6452ACB41EE00F2CA92;
+					};
+					98D8A65F2ACB41F100F2CA92 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 98D8A6452ACB41EE00F2CA92;
+					};
+				};
+			};
+			buildConfigurationList = 98D8A6412ACB41EE00F2CA92 /* Build configuration list for PBXProject "LeafLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D8A63D2ACB41EE00F2CA92;
+			productRefGroup = 98D8A6472ACB41EE00F2CA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D8A6452ACB41EE00F2CA92 /* LeafLink */,
+				98D8A6552ACB41F100F2CA92 /* LeafLinkTests */,
+				98D8A65F2ACB41F100F2CA92 /* LeafLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D8A6442ACB41EE00F2CA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8A6512ACB41F100F2CA92 /* Preview Assets.xcassets in Resources */,
+				98D8A64E2ACB41F100F2CA92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8A6542ACB41F100F2CA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8A65E2ACB41F100F2CA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D8A6422ACB41EE00F2CA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF70F012ACC1EC300958C1C /* MapView.swift in Sources */,
+				9AF70EFD2ACC19D200958C1C /* TestView.swift in Sources */,
+				9AD515092ACCB2E200D96C8C /* ChatView.swift in Sources */,
+				98D8A64C2ACB41EE00F2CA92 /* ContentView.swift in Sources */,
+				9AF70F052ACC3EC600958C1C /* Pin.swift in Sources */,
+				983097222ACCB4B70058FC99 /* HomePage.swift in Sources */,
+				98D8A6822ACC286400F2CA92 /* PlantFAQPage.swift in Sources */,
+				98D8A6842ACC28D600F2CA92 /* PlantGuidePage.swift in Sources */,
+				98D8A6862ACC28F600F2CA92 /* PlantSpeciesPage.swift in Sources */,
+				983097262ACCDDED0058FC99 /* MyPlantGuidePage.swift in Sources */,
+				98D8A67D2ACC279700F2CA92 /* GuidePage.swift in Sources */,
+				98D8A6762ACB4DD800F2CA92 /* CameraViewController.swift in Sources */,
+				98D8A6802ACC27FA00F2CA92 /* PlantDiseasesPage.swift in Sources */,
+				98D8A64A2ACB41EE00F2CA92 /* LeafLinkApp.swift in Sources */,
+				9AD5150B2ACCC6FB00D96C8C /* ChartView.swift in Sources */,
+				98D8A6782ACB4E1900F2CA92 /* CameraView.swift in Sources */,
+				98D8A6742ACB4A0400F2CA92 /* BottomNavBar.swift in Sources */,
+				9AD515072ACCA45C00D96C8C /* EventsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8A6522ACB41F100F2CA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8A65B2ACB41F100F2CA92 /* LeafLinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D8A65C2ACB41F100F2CA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D8A6672ACB41F100F2CA92 /* LeafLinkUITestsLaunchTests.swift in Sources */,
+				98D8A6652ACB41F100F2CA92 /* LeafLinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D8A6582ACB41F100F2CA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D8A6452ACB41EE00F2CA92 /* LeafLink */;
+			targetProxy = 98D8A6572ACB41F100F2CA92 /* PBXContainerItemProxy */;
+		};
+		98D8A6622ACB41F100F2CA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D8A6452ACB41EE00F2CA92 /* LeafLink */;
+			targetProxy = 98D8A6612ACB41F100F2CA92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98D8A6682ACB41F100F2CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98D8A6692ACB41F100F2CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D8A66B2ACB41F100F2CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeafLink/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MU6MX3337;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LeafLink;
+				INFOPLIST_KEY_NSCameraUsageDescription = "<key>NSCameraUsageDescription</key>\n<key>NSCameraUsageDescription</key>\n<key>NSCameraUsageDescription</key>\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fontys-s4.LeafLink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D8A66C2ACB41F100F2CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeafLink/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MU6MX3337;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LeafLink;
+				INFOPLIST_KEY_NSCameraUsageDescription = "<key>NSCameraUsageDescription</key>\n<key>NSCameraUsageDescription</key>\n<key>NSCameraUsageDescription</key>\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fontys-s4.LeafLink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98D8A66E2ACB41F100F2CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fontys-s4.LeafLinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeafLink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeafLink";
+			};
+			name = Debug;
+		};
+		98D8A66F2ACB41F100F2CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fontys-s4.LeafLinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeafLink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeafLink";
+			};
+			name = Release;
+		};
+		98D8A6712ACB41F100F2CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fontys-s4.LeafLinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeafLink;
+			};
+			name = Debug;
+		};
+		98D8A6722ACB41F100F2CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fontys-s4.LeafLinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeafLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D8A6412ACB41EE00F2CA92 /* Build configuration list for PBXProject "LeafLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8A6682ACB41F100F2CA92 /* Debug */,
+				98D8A6692ACB41F100F2CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8A66A2ACB41F100F2CA92 /* Build configuration list for PBXNativeTarget "LeafLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8A66B2ACB41F100F2CA92 /* Debug */,
+				98D8A66C2ACB41F100F2CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8A66D2ACB41F100F2CA92 /* Build configuration list for PBXNativeTarget "LeafLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8A66E2ACB41F100F2CA92 /* Debug */,
+				98D8A66F2ACB41F100F2CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D8A6702ACB41F100F2CA92 /* Build configuration list for PBXNativeTarget "LeafLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D8A6712ACB41F100F2CA92 /* Debug */,
+				98D8A6722ACB41F100F2CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D8A63E2ACB41EE00F2CA92 /* Project object */;
+}

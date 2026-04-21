@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "book-opened-page-with-plant-growing_664601-3975.jpg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
